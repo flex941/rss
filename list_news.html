@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru-ru" dir="ltr">
+<!-- (c) студия Wezom | www.wezom.com.ua -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Список новостей</title>
+    <meta name="description" lang="ru-ru" content="">
+    <meta name="keywords" lang="ru-ru" content="студия wezom, разработка сайтов">
+    <meta name="keywords" lang="en-us" content="studio wezom, web development">
+    <meta name="author" lang="ru-ru" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=1240">
+
+    <!--[if IE]><meta http-equiv="imagetoolbar" content="no"><![endif]-->
+    <!-- АДАПТАЦИЯ -->
+    <!-- <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="target-densitydpi=device-dpi">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes"> -->
+    <!-- saved from url=(0014)about:internet -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
+   
+    <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicons/manifest.json">
+    
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="apple-mobile-web-app-title" content="Title">
+    <meta name="application-name" content="Title">
+    <meta name="msapplication-tooltip" content="Description">
+    <link rel="image_src" href="favicons/express.jpg">
+
+    <link rel="stylesheet" href="css/plugin.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>.seoTxt {position:absolute;top:100%;left:0;width:100%;}</style>
+    <!-- АДАПТАЦИЯ -->
+    <!-- <link rel="stylesheet" href="css/responsive.css"> 
+	<link rel="stylesheet" href="css/responsive-portrait.css" media="all and (orientation:portrait)">
+	<link rel="stylesheet" href="css/responsive-landscape.css" media="all and (orientation:landscape)">-->
+
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script src="js/modernizr.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/jquery.inputmask.js"></script>
+</head>
+
+<body>
+    <div class="wWrapper">
+        <header class="wHeader">
+            <!--Logo block-->
+            <div class="wrapper_header_top">
+                <div class="wSize">
+                    <div class="header_top">
+                        <div class="logo_block">
+                            <a href="#"><img src="pic/logo_site.png" alt=""></a>
+                        </div>
+                        <div class="phone_block">
+                            <div class="kyivstar">
+                                <span class="sprites_kyiv"></span>
+                                <a href="tel:+380508361461">
+                                    <span>050</span>
+                                    <span>836-14-61</span>
+                                </a>
+                                    <a href="tel:+380506347210">
+                                    <span>050</span>
+                                    <span>634-72-10</span>
+                                </a>
+                            </div>
+                             <div class="mts">
+                                <span class="sprites_mts"></span>
+                                <a href="tel:+380679515765">
+                                    <span>067</span>
+                                    <span>951-57-65</span>
+                                </a>
+                                <a href="tel:+380964783255">
+                                    <span>096</span>
+                                    <span>478-32-55</span>
+                                </a>
+                            </div>     
+                        </div>
+                        <div class="call_button">
+                            <a href="#enterReg" class="pop_up"><span>Заказать звонок</span></a>
+                        </div>
+                        <div class="clear"></div>
+                            <div class="modal_block">
+                                <div id="enterReg" class="enter_reg_popup">
+                                    <div class="enter_req_top">
+                                        <div class="circuit_bg"></div>
+                                        <div class="popup_block enter_block wCur">
+                                            <div class="enter_title">
+                                                <p>Заказать звонок</p>
+                                                <p>Заполните форму<br> и мы вам обязательно перезвоним</p>
+                                            </div>
+                                            <div class="popup_content">
+                                                <div id="enter_form" data-form="true" class="wForm enter_block_form vis_form">
+                                                    <div class="wFormRow">
+                                                        <div class="obv">
+                                                        <input type="text" name="enter_name" id="enter_name" placeholder="Ваше имя" data-msg-required="Это поле необходимо заполнить" required="">
+                                                        <div class="help">Ваше имя</div>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                    <div class="wFormRow">
+                                                        <div class="obv">    
+                                                        <input type="tel" name="enter_tel" id="enter_tel" placeholder="Ваш телефон" data-rule-phoneUA="true" data-msg-required="Это поле необходимо заполнить" data-msg-phoneUA="Пожалуйста, введите верный телефон" required="" class="enter_tel">
+                                                        <div class="help">Номер телефона</div>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                    <div class="tac c_button">
+                                                        <button class="wSubmit enterReq_btn"><span>Перезвоните мне</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Menu-->
+                    <div class="wrapper_header_bottom">
+                        <div class="wSize">
+                            <div class="header_bottom">
+                                <ul class="main_menu">
+                                    <li><a href="#">о компании</a></li>
+                                    <li><a href="#">фотогалерея</a></li>
+                                    <li><a href="#">газон</a></li>
+                                    <li><a href="#">сады</a></li>
+                                    <li><a href="#">дорожки</a></li>
+                                    <li><a href="#">освещение</a></li>
+                                    <li><a href="#">защита от накипи</a></li>
+                                    <li><a href="#">туман</a></li>
+                                    <li><a href="#">Новости</a></li>
+                                    <li><a href="#" class="last">контакты</a></li>
+                                </ul>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="header_bottom_image"></div>
+                    </div>
+                </div>   
+        </header>
+        <!-- .wHeader -->
+        <div class="wConteiner">
+            <div class="breadcrumbs">
+                <div class="wSize">
+                    <span><a href="#">Главная</a></span>
+                    <span>Список новостей</span>
+                </div>
+            </div>
+            <div class="page_text">
+                <div class="wSize">                  
+                    <div class="title_text_page">Список новостей</div>
+                    <ul class="list_news">
+                        <li>
+                            <div class="image_news">
+                                <a href="#"><img src="pic/f_p_services.png" alt=""></a>
+                            </div>
+                            <div class="text_news">
+                                <a href="#"><span class="description_news">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia commodi ex quasi in, quod nulla ipsum libero facere temporibus, repellat, deserunt totam. Natus fugit laudantium voluptate ipsam ea reiciendis fugiat?
+                                </span></a>
+                                <span class="date_news">14.02.2015</span>
+                                <span class="more_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto velit quidem esse. Eligendi perferendis sint voluptatum sit nemo odio architecto illo ...</span>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="button_more">
+                                <a href="#"><span>Подробнее</span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image_news">
+                                <a href="#"><img src="pic/default_img_serv.png" alt=""></a>
+                            </div>
+                            <div class="text_news">
+                                <a href="#"><span class="description_news">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia commodi ex quasi in, quod nulla ipsum libero facere temporibus, repellat, deserunt totam. Natus fugit laudantium voluptate ipsam ea reiciendis fugiat?
+                                </span></a>
+                                <span class="date_news">14.02.2015</span>
+                                <span class="more_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto velit quidem esse. Eligendi perferendis sint voluptatum sit nemo odio architecto illo ...</span>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="button_more">
+                                <a href="#"><span>Подробнее</span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image_news">
+                                <a href="#"><img src="pic/e_p_services.png" alt=""></a>
+                            </div>
+                            <div class="text_news">
+                                <a href="#"><span class="description_news">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia commodi ex quasi in, quod nulla ipsum libero facere temporibus, repellat, deserunt totam. Natus fugit laudantium voluptate ipsam ea reiciendis fugiat?
+                                </span></a>
+                                <span class="date_news">14.02.2015</span>
+                                <span class="more_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto velit quidem esse. Eligendi perferendis sint voluptatum sit nemo odio architecto illo ...</span>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="button_more">
+                                <a href="#"><span>Подробнее</span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image_news">
+                                <a href="#"><img src="pic/fourth_p_services.png" alt=""></a>
+                            </div>
+                            <div class="text_news">
+                                <a href="#"><span class="description_news">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia commodi ex quasi in, quod nulla ipsum libero facere temporibus, repellat, deserunt totam. Natus fugit laudantium voluptate ipsam ea reiciendis fugiat?
+                                </span></a>
+                                <span class="date_news">14.02.2015</span>
+                                <span class="more_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto velit quidem esse. Eligendi perferendis sint voluptatum sit nemo odio architecto illo ...</span>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="button_more">
+                                <a href="#"><span>Подробнее</span></a>
+                            </div>
+                        </li>
+                    </ul>
+                <div class="clear"></div>
+                <div class="pagination_block">
+                        <a href="#" class="active_page"><span>1</span></a>
+                        <a href="#"><span>2</span></a>
+                        <a href="#"><span>3</span></a>
+                        <a href="#"><span>4</span></a>
+                        <a href="#"><span>5</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>      
+        <!-- .wConteiner -->
+    </div>
+    <!-- .wWrapper -->
+    <footer class="wFooter">
+        <div class="wSize">
+            <div class="footer_logo">
+                <a href="#"><img src="pic/footer_logo.png" alt=""></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2015 <a href="#">flora-style.com.ua</a></p>
+                <p>Ландшафтный дизайн</p>
+            </div>
+            <div class="footer_nav">
+                <a href="#">о нас </a>
+                <a href="#">услуги</a>
+                <a href="#">контакты</a>
+            </div>
+            <div class="developers">
+                <a href="#">
+                    <img src="pic/logo_wezom.png" alt="">
+                    <p>Разработка сайта -<br> студия <span class="wezom">wezom</span></p>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- .wFooter -->
+</body>
+
+</html>
